@@ -22,10 +22,10 @@ type Patron struct {
 
 
 func populate() []Venue {
-	patron := &Patron{ ID:1, Firstname: "Taylor", Lastname: "Lohman" }
+	patron := &Patron{ ID:1, Firstname: "Jonnie", Lastname: "Androidsmith" }
 	venue := Venue{
 		ID: 1,
-		Name: "Jones Hollywood",
+		Name: "Plates & Spoons",
 		Owners: []Patron{*patron},
 	}
 	var venues []Venue
